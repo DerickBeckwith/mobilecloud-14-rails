@@ -9,16 +9,12 @@ class VideoController < ApplicationController
   end
   
   def index
-    get_all_videos
+    @videos=Video.all
     render 'video/index.txt.erb', content_type: 'text/plain', status: 200
   end
   
   private 
     def video_params
       params.permit(:title,:url,:duration)
-    end
-    
-    def get_all_videos
-      @videos=Video.all
     end
 end
