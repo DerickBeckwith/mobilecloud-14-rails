@@ -3,3 +3,7 @@
 Programming Cloud Services for Android Handheld Systems
 
 https://www.coursera.org/course/mobilecloud
+
+Contents:
+
+1. Simple echo servlet - type: http://localhost:3000/servletexample/echo?msg=test123
