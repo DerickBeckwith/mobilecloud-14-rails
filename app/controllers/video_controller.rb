@@ -4,13 +4,13 @@ class VideoController < ApplicationController
     if video.save 
       render plain: 'Video added', content_type: 'text/plain', status: 200
     else
-      render plain: 'Missing [name, url, duration]', status: 400
+      render plain: 'Missing [name, url, duration]', content_type: 'text/plain', status: 400
     end
   end
   
   def index
     get_all_videos
-    render 'video/index.txt.erb', content_type: 'text/plain'
+    render 'video/index.txt.erb', content_type: 'text/plain', status: 200
   end
   
   private 
