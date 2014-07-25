@@ -7,4 +7,4 @@ https://www.coursera.org/course/mobilecloud
 Contents:
 
 1. Simple echo servlet - type: http://localhost:3000/servletexample/echo?msg=test123
-2. Video file name - type http://localhost:3000/videoexample
+2. Video file name - type http://localhost:3000/video
