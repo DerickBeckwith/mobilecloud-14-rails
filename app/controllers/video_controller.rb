@@ -1,4 +1,5 @@
 class VideoController < ApplicationController
+  
   def create
     video=Video.create video_params
     if video.save 
@@ -17,4 +18,5 @@ class VideoController < ApplicationController
     def video_params
       params.permit(:title,:url,:duration)
     end
+    
 end
