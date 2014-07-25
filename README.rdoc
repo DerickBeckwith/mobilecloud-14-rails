@@ -1,4 +1,4 @@
-﻿This is a rails mock up if the Java example code in the Cousera course
+﻿This is a rails mock up of the Java example code in the Cousera course
 
 Programming Cloud Services for Android Handheld Systems
 
